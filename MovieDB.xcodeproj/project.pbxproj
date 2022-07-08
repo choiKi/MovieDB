@@ -14,6 +14,11 @@
 		C44946F92878494E006E9B4B /* MovieDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44946F82878494E006E9B4B /* MovieDBTests.swift */; };
 		C44947032878494E006E9B4B /* MovieDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44947022878494E006E9B4B /* MovieDBUITests.swift */; };
 		C44947052878494E006E9B4B /* MovieDBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44947042878494E006E9B4B /* MovieDBUITestsLaunchTests.swift */; };
+		C4494713287849BB006E9B4B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4494712287849BB006E9B4B /* Movie.swift */; };
+		C449471628784A6A006E9B4B /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C449471528784A6A006E9B4B /* MovieService.swift */; };
+		C449471828784CDA006E9B4B /* MovieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C449471728784CDA006E9B4B /* MovieStore.swift */; };
+		C449471A28784DBC006E9B4B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C449471928784DBC006E9B4B /* Utils.swift */; };
+		C449471C2878596C006E9B4B /* Movie+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = C449471B2878596C006E9B4B /* Movie+Stub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		C44946FE2878494E006E9B4B /* MovieDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44947022878494E006E9B4B /* MovieDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDBUITests.swift; sourceTree = "<group>"; };
 		C44947042878494E006E9B4B /* MovieDBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDBUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4494712287849BB006E9B4B /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		C449471528784A6A006E9B4B /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		C449471728784CDA006E9B4B /* MovieStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStore.swift; sourceTree = "<group>"; };
+		C449471928784DBC006E9B4B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		C449471B2878596C006E9B4B /* Movie+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+Stub.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,8 @@
 		C44946E62878494D006E9B4B /* MovieDB */ = {
 			isa = PBXGroup;
 			children = (
+				C449471428784A42006E9B4B /* Service */,
+				C44947112878499D006E9B4B /* Models */,
 				C44946E72878494D006E9B4B /* MovieDBApp.swift */,
 				C44946E92878494D006E9B4B /* ContentView.swift */,
 				C44946EB2878494E006E9B4B /* Assets.xcassets */,
@@ -125,6 +137,25 @@
 				C44947042878494E006E9B4B /* MovieDBUITestsLaunchTests.swift */,
 			);
 			path = MovieDBUITests;
+			sourceTree = "<group>";
+		};
+		C44947112878499D006E9B4B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4494712287849BB006E9B4B /* Movie.swift */,
+				C449471B2878596C006E9B4B /* Movie+Stub.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C449471428784A42006E9B4B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C449471528784A6A006E9B4B /* MovieService.swift */,
+				C449471728784CDA006E9B4B /* MovieStore.swift */,
+				C449471928784DBC006E9B4B /* Utils.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +290,11 @@
 			files = (
 				C44946EA2878494D006E9B4B /* ContentView.swift in Sources */,
 				C44946E82878494D006E9B4B /* MovieDBApp.swift in Sources */,
+				C449471628784A6A006E9B4B /* MovieService.swift in Sources */,
+				C449471C2878596C006E9B4B /* Movie+Stub.swift in Sources */,
+				C4494713287849BB006E9B4B /* Movie.swift in Sources */,
+				C449471828784CDA006E9B4B /* MovieStore.swift in Sources */,
+				C449471A28784DBC006E9B4B /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
