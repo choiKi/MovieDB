@@ -24,3 +24,4 @@ struct Movie: Decodable {
     let runTime: Int?
     
 }
+
